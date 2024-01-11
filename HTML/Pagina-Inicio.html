@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pagina-Inicio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="cruz.ico" type="image/x-icon">
+<title>Drogaria Igor</title>
+
+</head>
+
+<body>
+    <header>
+        <a href="Pagina-Inicio.html" class="logo"><i class='bx bxs-capsule'></i>Drogaria Igor</a>
+        <h2>Qualidade e Compromisso!</h2>
+        <nav>
+            <ul>
+                <li><a href="Pagina-Inicio.html">Início</a></li>
+                <li><a href="#remédios-mais-vendidos">Produtos</a></li>
+                <li><a href="Carrinho-de-Compras.html">Ir para o Carrinho de Compras</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="remédios-mais-vendidos">
+        <h1>Remédios Mais Vendidos</h1>
+        <div class="produto">
+            <img src="paracetamol_750mg.png" class="paracetamol" alt="Paracetamol">
+            <h2>Paracetamol (750mg) - 1 unidade</h2>
+            <p>Analgésico indicado para dores de cabeça, contusões, entre outros.</p>
+            <center>
+                <span class="preço">R$ 9,99</span>
+            </center>
+            <button class="adicione-ao-carrinho" onclick="sim()">Adicionar ao carrinho de compras</button>
+        </div>
+        
+        <div class="produto">
+            <img src="neosoro_30ml.png" class="neosoro" alt="Neosoro">
+            <h2>Neosoro (30ml) - 1 unidade</h2>
+            <p>Descongestionante nasal que alivia sintomas de congestão nasal, onde há obstrução das vias nasais.</p>
+            <center>
+                <span class="preço">R$ 9,99</span>
+            </center>
+            <button class="adicione-ao-carrinho" onclick="sim()">Adicionar ao carrinho de compras</button>
+        </div>
+    </section>
+
+    <section class="remédios-promoção">
+        <h1>Remédios em Promoção</h1>
+        <div class="produto">
+            <img src="desodorante_dove_aerosol.png" class="desodorante-aerosol" alt="Desodorante Dove">
+            <h2>Desdorante Dove (89g-150ml) - 1 unidade</h2>
+            <p>Se você procura o cuidado necessário para uma pele fresca e suave e que ainda dure o dia inteiro, o Antitranspirante Dove Aerosol Original é o ideal para você.</p>
+            <center>
+                <span class="preço-antigo">De: R$ 16,99</span>
+            <span class="preço-novo">Por: R$ 12,99</span>
+            </center>
+            <button class="adicione-ao-carrinho" onclick="sim()">Adicionar ao carrinho de compras</button>
+        </div>
+        
+        <div class="produto">
+            <img src="escova_dente.png" class="escova-dente" alt="Escova de Dente Colgate">
+            <h2>Escova de Dente Colgate - 1 unidade</h2>
+            <p>Escova de dente com cerdas arredondadas que não irritam a gengiva e te deixam com maior conforto na escovação.</p>
+            <center>
+                <span class="preço-antigo">De: R$ 7,99</span>
+            <span class="preço-novo">Por: R$ 5,99</span>
+            </center>
+            <button class="adicione-ao-carrinho" onclick="sim()">Adicionar ao carrinho de compras</button>
+        </div>
+    </section>
+
+</body>
+
+<div>
+    <footer>
+        <a href="Pagina-Inicio.html" class="logo2"><i class='bx bxs-capsule'></i>Drogaria Igor</a>
+        <nav>
+            <ul>
+                <li><a href="Quem-Somos.html">Quem Somos</a></li>
+                <li><a href="Nossas-Lojas.html">Nossas lojas</a></li>
+                <li><a href="Fale-Conosco.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </footer>
+</div>
+
+<script>
+     function sim(){
+
+alert("Você será redirecionado para o Carrinho de Compras.")
+location.href = "Carrinho-de-Compras.html";
+}
+</script>
+
+</html>
