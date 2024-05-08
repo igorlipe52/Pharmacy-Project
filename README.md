@@ -1,2 +1,2 @@
-# Farmácia-Site-Faculdade
-Exemplo de um site de farmácia, feito somente com HTML e CSS.
+# Pharmacy Project
+Pharmacy Project using HTML and CSS only.
